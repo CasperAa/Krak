@@ -8,11 +8,11 @@ Krak
 ## Group Contract
 Add a short informal Group Contract, agreed upon by ALL MEMBERS in the group
 
-## Branching Strategy 
+## Branching Strategy
 Feature Branch
 
 ## Link to deployed project
-Add a link (when ready) to your deployed project
+Will be added at a later time
 
 ## Who Did What
 Each member must come up with a short description when the **final deadline is reached**.
