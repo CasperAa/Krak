@@ -10,7 +10,7 @@ Deltagelse: Vi gør vores bedste og påtager os de opgaver, vi kan overkomme, id
  
 Kommunikation: Vi kommunikerer på Discord i vores Discord-gruppe, og denne skal tjekkes minimum én gang i døgnet. Hvis et gruppemedlem ikke svarer, kan man kontakte dem på telefon.
  
-Møder: Vi mødes på aftalte tidspunkter, gerne online og gerne korte møder. Næste mødetidspunkt aftales i slutnignen af hvert møde.
+Møder: Vi mødes på aftalte tidspunkter, gerne online og gerne korte møder. Næste mødetidspunkt aftales i slutningen af hvert møde.
 Vi afholder møder fysisk (sandsynligvis på KEA) eller på Teams.
  
 Opførsel: Vi er ikke sexistiske eller racistiske. .
