@@ -1,17 +1,15 @@
-# Krak
+# Gruppe 3
 
-# Group Name (Replace with group name)
-
-## Name of the project (replace with the name)
+## Krak
 
 ## Project Description
-If you take the "easy one" or "A 'Krak' insprired project" you can leave this out
+Krak
 
 ## Group Contract
 Add a short informal Group Contract, agreed upon by ALL MEMBERS in the group
 
 ## Branching Strategy 
-Add the name of your selected Branching Strategy
+Feature Branch
 
 ## Link to deployed project
 Add a link (when ready) to your deployed project
@@ -22,6 +20,7 @@ Initially, Each of you should push a commit with just your name
 You should all add your GitHub usename in parenthesis next to your name, so I know who is who, when I check commit messages
 
 ### Member-1
+Amanda Tolstrup Laursen, AmandaTL142
 
 
 ### Member-2
