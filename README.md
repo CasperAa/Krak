@@ -24,6 +24,7 @@ Amanda Tolstrup Laursen, AmandaTL142
 
 
 ### Member-2
+Casper Aakvist Steengaard - CasperAa
 
 
 ### Member-3
