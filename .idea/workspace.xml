@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e1c6fe5-ca6b-405f-89bc-407d5fd27e6e" name="Changes" comment="changed dash to comma">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/api/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/configuration/MakeTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/dto/AddressRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/dto/AddressResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/dto/HobbyList" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/dto/HobbyRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/dto/HobbyResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/dto/MemberResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/dto/Memberrequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/entity/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/entity/Hobby.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/entity/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/error/Client4xxException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/error/ValidationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/service/AddressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/service/HobbyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/service/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/krak-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/krak-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3e1c6fe5-ca6b-405f-89bc-407d5fd27e6e" name="Changes" comment="changed dash to comma" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +51,7 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
   </component>
