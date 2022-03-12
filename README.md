@@ -24,7 +24,17 @@ Deadlines: Man skal informere gruppen, hvis man ikke kan nå deadline eller har 
 Feature Branch
 
 ## Link to deployed project
-Will be added at a later time
+https://krakprojekt.azurewebsites.net
+
+## MiniSprint-1
+Pipeline opsat
+Database opsat 
+Connection mellem kode og DB
+Skelet opsat i intelliJ (formulér det på en mere faglig måde)
+Lavet GitHub til frontend
+Testdata lavet
+Tom index lavet
+Opsæt vores egne feature branches
 
 ## Who Did What
 Each member must come up with a short description when the **final deadline is reached**.
