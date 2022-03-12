@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e1c6fe5-ca6b-405f-89bc-407d5fd27e6e" name="Changes" comment="changed dash to comma" />
+    <list default="true" id="3e1c6fe5-ca6b-405f-89bc-407d5fd27e6e" name="Changes" comment="changed dash to comma">
+      <change beforePath="$PROJECT_DIR$/.idea/krak-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/krak-project.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +53,7 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -83,6 +85,7 @@
       <workItem from="1646390947666" duration="525000" />
       <workItem from="1647000114338" duration="1618000" />
       <workItem from="1647003705435" duration="537000" />
+      <workItem from="1647083189294" duration="356000" />
     </task>
     <task id="LOCAL-00001" summary="Added me as Member">
       <created>1646388410010</created>
