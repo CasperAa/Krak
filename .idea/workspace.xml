@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e1c6fe5-ca6b-405f-89bc-407d5fd27e6e" name="Changes" comment="changed dash to comma">
-      <change beforePath="$PROJECT_DIR$/.idea/krak-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/krak-project.iml" afterDir="false" />
+    <list default="true" id="3e1c6fe5-ca6b-405f-89bc-407d5fd27e6e" name="Changes" comment="Startside tilføjet">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +17,7 @@
       <list>
         <option value="package-info" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -63,8 +64,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -85,7 +88,7 @@
       <workItem from="1646390947666" duration="525000" />
       <workItem from="1647000114338" duration="1618000" />
       <workItem from="1647003705435" duration="537000" />
-      <workItem from="1647083189294" duration="356000" />
+      <workItem from="1647083189294" duration="845000" />
     </task>
     <task id="LOCAL-00001" summary="Added me as Member">
       <created>1646388410010</created>
@@ -101,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646390999069</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Startside tilføjet">
+      <created>1647083723798</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647083723798</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added me as Member" />
     <MESSAGE value="changed dash to comma" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed dash to comma" />
+    <MESSAGE value="Startside tilføjet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Startside tilføjet" />
   </component>
 </project>
