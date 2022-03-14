@@ -50,6 +50,7 @@ Casper Aakvist Steengaard, CasperAa
 
 
 ### Member-3
+Isabel Patulski Nielsen, isabelPatulski
 
 
 ### Member-4
