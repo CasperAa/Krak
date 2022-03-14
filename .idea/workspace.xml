@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e1c6fe5-ca6b-405f-89bc-407d5fd27e6e" name="Changes" comment="Startside tilføjet">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="3e1c6fe5-ca6b-405f-89bc-407d5fd27e6e" name="Changes" comment="Hobbyliste tilføjet">
+      <change afterPath="$PROJECT_DIR$/src/main/java/backend/dto/hobbiesFinal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/dto/HobbyList" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/dto/hobbies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/service/HobbyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/service/HobbyService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Create_feature" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,6 +79,34 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/backend/dto" />
+      <recent name="$PROJECT_DIR$/src/main/java/backend/service" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HobbyService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backend.service.HobbyService" />
+      <module name="krak-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backend.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HobbyService" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,7 +120,7 @@
       <workItem from="1646390947666" duration="525000" />
       <workItem from="1647000114338" duration="1618000" />
       <workItem from="1647003705435" duration="537000" />
-      <workItem from="1647083189294" duration="845000" />
+      <workItem from="1647083189294" duration="3108000" />
     </task>
     <task id="LOCAL-00001" summary="Added me as Member">
       <created>1646388410010</created>
@@ -111,7 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647083723798</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="application.properties ændret">
+      <created>1647084106648</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647084106648</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Hobbyliste tilføjet">
+      <created>1647250779963</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647250779963</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +179,8 @@
     <MESSAGE value="Added me as Member" />
     <MESSAGE value="changed dash to comma" />
     <MESSAGE value="Startside tilføjet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Startside tilføjet" />
+    <MESSAGE value="application.properties ændret" />
+    <MESSAGE value="Hobbyliste tilføjet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hobbyliste tilføjet" />
   </component>
 </project>
