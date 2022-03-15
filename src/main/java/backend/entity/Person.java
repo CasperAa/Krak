@@ -1,32 +1,42 @@
 package backend.entity;
 
+import backend.dto.PersonRequest;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.ToString;
 
 import javax.persistence.*;
 
-//With these annotation for getter, setter & ToString, no need to code for these functions.
+@Entity
 @Getter
 @Setter
-@ToString
-@Entity
+@AllArgsConstructor
+@NoArgsConstructor
 public class Person {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
 
+    @Column(length = 320)
     String email;
+
     String firstName;
+
     String lastName;
+
+    @Column(length = 20)
     String phone;
 
+    @ManyToOne
+    Address connectedAddress;
 
-  /* @ManyToOne
-    Address personalAdress;
-    */
-
-    public Person(){}
+    public Person(PersonRequest body) {
+        this.email = email;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phone = phone;
+    }
 
     public Person(String email, String firstName, String lastName, String phone) {
         this.email = email;
@@ -34,15 +44,5 @@ public class Person {
         this.lastName = lastName;
         this.phone = phone;
     }
-
-    public Person(PersonRequest body){
-        this(body.getEmail(), body.getFirstName(), body.getLastName(), body.getPhone());
-    }
-
-    /*skelet til, når person skal connectes til adress
-
-    @ManyToOne(mappedBy = "")
-    private Set<Address> AddressList = new HashSet<>();
-    */
-
 }
+

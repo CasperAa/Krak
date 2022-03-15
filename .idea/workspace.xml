@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e1c6fe5-ca6b-405f-89bc-407d5fd27e6e" name="Changes" comment="Update person">
-      <change afterPath="$PROJECT_DIR$/src/test/java/backend/service/PersonServiceTest.java" afterDir="false" />
+    <list default="true" id="3e1c6fe5-ca6b-405f-89bc-407d5fd27e6e" name="Changes" comment="Tvunget commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/api/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/api/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/dto/PersonRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/dto/PersonRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/dto/PersonResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/dto/PersonResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/entity/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/error/Client4xxException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/error/Client4xxException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/service/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/api/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/api/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/configuration/MakeTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/configuration/MakeTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/dto/MemberRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/dto/PersonRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/dto/MemberResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/dto/PersonResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/entity/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/entity/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/entity/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/repository/PersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/service/PersonService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,19 +24,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="HTML File" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="main" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="EditMember_feature" />
+        <entry key="$PROJECT_DIR$" value="Test_feature" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,55 +75,39 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/backend/dto" />
-      <recent name="$PROJECT_DIR$/src/main/java/backend/service" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static" />
-      <recent name="$PROJECT_DIR$/src/main" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="backend.service" />
-    </key>
-  </component>
   <component name="RunManager">
-    <configuration name="HobbyService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <envs>
-        <env name="JDBC_DATABASE_URL" value="jdbc:mysql://20.223.194.5:3306/krak" />
-        <env name="JDBC_PASSWORD" value="123456" />
-        <env name="JDBC_USERNAME" value="root" />
-      </envs>
-      <option name="MAIN_CLASS_NAME" value="backend.service.HobbyService" />
+    <configuration name="SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="krak-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="backend.service.*" />
+          <option name="PATTERN" value="backend.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="backend.SecurityApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <envs>
+        <env name="JDBC_DATABASE_URL" value="jdbc:mysql://20.223.194.5:3306/krak" />
+        <env name="JDBC_USERNAME" value="root" />
+        <env name="JDBC_PASSWORD" value="123456" />
+      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HobbyService" />
+        <item itemvalue="Spring Boot.SecurityApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +124,6 @@
       <workItem from="1646390947666" duration="525000" />
       <workItem from="1647000114338" duration="1618000" />
       <workItem from="1647003705435" duration="537000" />
-      <workItem from="1647083189294" duration="3108000" />
     </task>
     <task id="LOCAL-00001" summary="Added me as Member">
       <created>1646388410010</created>
@@ -160,28 +139,7 @@
       <option name="project" value="LOCAL" />
       <updated>1646390999069</updated>
     </task>
-    <task id="LOCAL-00003" summary="Startside tilføjet">
-      <created>1647083723798</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1647083723798</updated>
-    </task>
-    <task id="LOCAL-00004" summary="application.properties ændret">
-      <created>1647084106648</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1647084106648</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Hobbyliste tilføjet">
-      <created>1647250779963</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1647250779963</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,12 +160,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added me as Member" />
     <MESSAGE value="changed dash to comma" />
-    <MESSAGE value="Startside tilføjet" />
-    <MESSAGE value="application.properties ændret" />
-    <MESSAGE value="Hobbyliste tilføjet" />
-    <MESSAGE value="Igang med MemberEntity og MemberResponse" />
-    <MESSAGE value="igang" />
-    <MESSAGE value="Update person" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update person" />
+    <MESSAGE value="Tvunget commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tvunget commit" />
   </component>
 </project>
