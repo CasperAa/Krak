@@ -1,6 +1,5 @@
 package backend.entity;
 
-import backend.dto.PersonRequest;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;

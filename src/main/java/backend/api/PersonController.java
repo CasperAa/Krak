@@ -1,8 +1,5 @@
 package backend.api;
 
-import backend.dto.PersonRequest;
-import backend.dto.PersonResponse;
-import backend.service.PersonService;
 import org.springframework.web.bind.annotation.*;
 
 //Denne annotation omformes java til JSON, når det vises i browser

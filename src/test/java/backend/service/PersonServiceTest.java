@@ -1,15 +1,10 @@
 package backend.service;
 
-import backend.dto.PersonRequest;
-import backend.dto.PersonResponse;
 import backend.entity.Person;
 import backend.repository.PersonRepository;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @DataJpaTest
 class PersonServiceTest {
