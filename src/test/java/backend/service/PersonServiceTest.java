@@ -14,16 +14,6 @@ class PersonServiceTest {
 
     static int person1Id, person2Id;
 
-    @BeforeAll
-    static void setUp(@Autowired PersonRepository personRepository ){
-        personRepository.deleteAll();
-
-        personService= new PersonService(personRepository);
-        person1Id =personRepository.save(new Person("mail@kk.dk","Lisa","Nielsen","+459938994")).getId();
-        person2Id =personRepository.save(new Person("alice@kk.dk","alice","Jensen","+4599389004")).getId();
-
-    }
-
 
     /*@Test
     public void updatePerson() throws Exception {

@@ -31,4 +31,11 @@ public class PersonResponse {
         }
     }
 
+    public PersonResponse(Person person) {
+        this.id = id;
+        this.email = email;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phone = phone;
+    }
 }
