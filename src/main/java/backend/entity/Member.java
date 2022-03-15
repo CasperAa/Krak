@@ -9,6 +9,8 @@ import lombok.Setter;
 import javax.management.ConstructorParameters;
 import javax.persistence.*;
 import java.beans.ConstructorProperties;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Getter
@@ -29,6 +31,9 @@ public class Member {
 
     @Column(length = 20)
     String phone;
+
+    @ManyToOne
+    Address connectedAddress;
 
     public Member(MemberRequest body) {
         this.email = email;
