@@ -1,16 +1,40 @@
 package backend.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import backend.dto.MemberRequest;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import javax.management.ConstructorParameters;
+import javax.persistence.*;
+import java.beans.ConstructorProperties;
 
 @Entity
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class Member {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
 
-    public Member() {
+    @Column(length = 320)
+    String email;
+
+    String firstName;
+
+    String lastName;
+
+    @Column(length = 20)
+    String phone;
+
+    public Member(MemberRequest body) {
+        this.email = email;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phone = phone;
     }
 }
+
