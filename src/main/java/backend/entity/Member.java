@@ -36,5 +36,12 @@ public class Member {
         this.lastName = lastName;
         this.phone = phone;
     }
+
+    public Member(String email, String firstName, String lastName, String phone) {
+        this.email = email;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phone = phone;
+    }
 }
 
