@@ -37,7 +37,7 @@ Tom index lavet
 Opsæt vores egne feature branches
 
 ## Who Did What
-Each member must come up with a short description when the **final deadline is reached**.
+Each person must come up with a short description when the **final deadline is reached**.
 Initially, Each of you should push a commit with just your name
 You should all add your GitHub usename in parenthesis next to your name, so I know who is who, when I check commit messages
 

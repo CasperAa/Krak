@@ -1,7 +1,7 @@
 package backend.dto;
 
 
-import backend.entity.Member;
+import backend.entity.Person;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,7 +13,7 @@ import lombok.Setter;
 
 /*include.non_null betyder at den kun tager værdier med som ikke er nul*/
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class MemberResponse {
+public class PersonResponse {
     int id;
 
     String email;
@@ -21,7 +21,7 @@ public class MemberResponse {
     String lastName;
     String phone;
 
-    public MemberResponse(int id, String email, String firstName, String lastName, String phone) {
+    public PersonResponse(int id, String email, String firstName, String lastName, String phone) {
         this.id = id;
         this.email = email;
         this.firstName = firstName;
@@ -29,12 +29,12 @@ public class MemberResponse {
         this.phone = phone;
     }
 
-    public MemberResponse(Member member/*boolean includeAllInformation*/){
-        this.id = member.getId();
-        this.email = member.getEmail();
-        this.firstName = member.getFirstName();
-        this.lastName = member.getLastName();
-        this.phone = member.getPhone();
+    public PersonResponse(Person person/*boolean includeAllInformation*/){
+        this.id = person.getId();
+        this.email = person.getEmail();
+        this.firstName = person.getFirstName();
+        this.lastName = person.getLastName();
+        this.phone = person.getPhone();
     }
 
     /*
