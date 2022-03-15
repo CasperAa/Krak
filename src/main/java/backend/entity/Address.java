@@ -25,7 +25,7 @@ public class Address {
     String city;
 
     @OneToMany(mappedBy = "connectedAddress")
-    private Set<Member> members = new HashSet<>();
+    private Set<Person> members = new HashSet<>();
 
     public Address(String street, String additionalInfo, String zipCode, String city) {
         this.street = street;

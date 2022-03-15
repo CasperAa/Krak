@@ -4,28 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e1c6fe5-ca6b-405f-89bc-407d5fd27e6e" name="Changes" comment="changed dash to comma">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/api/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/configuration/MakeTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/dto/AddressRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/dto/AddressResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/dto/HobbyList" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/dto/HobbyRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/dto/HobbyResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/dto/MemberResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/dto/Memberrequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/entity/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/entity/Hobby.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/entity/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/error/Client4xxException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/error/ValidationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/service/AddressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/service/HobbyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/service/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/krak-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/krak-project.iml" afterDir="false" />
+    <list default="true" id="3e1c6fe5-ca6b-405f-89bc-407d5fd27e6e" name="Changes" comment="Tvunget commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/api/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/api/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/configuration/MakeTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/configuration/MakeTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/dto/MemberRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/dto/PersonRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/dto/MemberResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/dto/PersonResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/entity/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/entity/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/entity/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/repository/PersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/service/PersonService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Test_feature" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,6 +84,33 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RunManager">
+    <configuration name="SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="krak-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="backend.SecurityApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <envs>
+        <env name="JDBC_DATABASE_URL" value="jdbc:mysql://20.223.194.5:3306/krak" />
+        <env name="JDBC_USERNAME" value="root" />
+        <env name="JDBC_PASSWORD" value="123456" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SecurityApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -145,6 +160,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added me as Member" />
     <MESSAGE value="changed dash to comma" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed dash to comma" />
+    <MESSAGE value="Tvunget commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tvunget commit" />
   </component>
 </project>

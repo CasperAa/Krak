@@ -1,7 +1,7 @@
 package backend.configuration;
 
-import backend.entity.Member;
-import backend.repository.MemberRepository;
+import backend.entity.Person;
+import backend.repository.PersonRepository;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.context.annotation.Profile;
@@ -11,15 +11,17 @@ import org.springframework.stereotype.Controller;
 @Profile("!test")
 public class MakeTestData implements ApplicationRunner {
 
-    MemberRepository memberRepository;
+    PersonRepository memberRepository;
 
-    public MakeTestData(MemberRepository memberRepository) {
+    public MakeTestData(PersonRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
 
     public void makeMembers(){
-        Member m1 = memberRepository.save(new Member("amanda@amanda.dk", "Amanda", "Amandasen", "70121416"));
-        Member m2 = memberRepository.save(new Member("casper@casper.co.uk", "Casper", "Caspersen", "88888888"));
+        Person m1 = memberRepository.save(new Person("amanda@amanda.dk", "Amanda", "Amandasen", "70121416"));
+        Person m2 = memberRepository.save(new Person("casper@casper.co.uk", "Casper", "Caspersen", "88888888"));
+
+        System.out.println("--------------Testdata kørt--------------");
     }
 
     @Override

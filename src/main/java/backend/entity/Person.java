@@ -1,23 +1,19 @@
 package backend.entity;
 
-import backend.dto.MemberRequest;
+import backend.dto.PersonRequest;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.management.ConstructorParameters;
 import javax.persistence.*;
-import java.beans.ConstructorProperties;
-import java.util.HashSet;
-import java.util.Set;
 
 @Entity
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Member {
+public class Person {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
@@ -35,14 +31,14 @@ public class Member {
     @ManyToOne
     Address connectedAddress;
 
-    public Member(MemberRequest body) {
+    public Person(PersonRequest body) {
         this.email = email;
         this.firstName = firstName;
         this.lastName = lastName;
         this.phone = phone;
     }
 
-    public Member(String email, String firstName, String lastName, String phone) {
+    public Person(String email, String firstName, String lastName, String phone) {
         this.email = email;
         this.firstName = firstName;
         this.lastName = lastName;
