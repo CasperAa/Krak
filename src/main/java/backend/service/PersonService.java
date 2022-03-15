@@ -5,9 +5,17 @@ import backend.dto.PersonResponse;
 import backend.entity.Person;
 import backend.repository.PersonRepository;
 
+import java.util.List;
+
 public class PersonService {
 
     PersonRepository personRepository;
+
+
+    public PersonService(PersonRepository personRepository) {
+        this.personRepository=personRepository;
+    }
+
 
     public PersonResponse addPerson(PersonRequest body) throws Exception {
 
@@ -19,4 +27,14 @@ public class PersonService {
         return new PersonResponse(personNew,true,true);
     }
 
+    public List<PersonResponse> getPersons(){
+        List<Person> persons = personRepository.findAll();
+        return  PersonResponse.getPersonEntities(persons);
+    }
+
+    public void deletePerson(String email){ personRepository.deleteById(email);
+    }
+
 }
+
+
