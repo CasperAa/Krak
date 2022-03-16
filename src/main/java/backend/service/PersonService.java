@@ -27,6 +27,7 @@ public class PersonService {
         return new PersonResponse(personNew,true,true);
     }
 
+
     public List<PersonResponse> getPersons(){
         List<Person> persons = personRepository.findAll();
         return  PersonResponse.getPersonEntities(persons);
