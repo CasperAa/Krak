@@ -35,6 +35,14 @@ public class PersonResponse {
         }
     }
 
+    public PersonResponse(Person person) {
+        this.id = id;
+        this.email = email;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phone = phone;
+    }
+
 
     public static List<PersonResponse> getPersonEntities (List<Person> persons){
         return persons.stream().map(person -> new PersonResponse()).collect(Collectors.toList());
