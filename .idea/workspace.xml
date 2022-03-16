@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3e1c6fe5-ca6b-405f-89bc-407d5fd27e6e" name="Changes" comment="Tvunget commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/api/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/api/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/service/PersonService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -68,6 +71,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -101,7 +108,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.SecurityApplication" />
-        <item itemvalue="Spring Boot.SecurityApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -118,6 +124,7 @@
       <workItem from="1646390947666" duration="525000" />
       <workItem from="1647000114338" duration="1618000" />
       <workItem from="1647003705435" duration="537000" />
+      <workItem from="1647419766160" duration="947000" />
     </task>
     <task id="LOCAL-00001" summary="Added me as Member">
       <created>1646388410010</created>

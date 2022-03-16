@@ -6,6 +6,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -16,6 +19,7 @@ public class PersonResponse {
     String firstName;
     String lastName;
     String phone;
+
 
     public PersonResponse(Person person, boolean includeId, boolean includeContactInfo) {
         this.email = email;
@@ -31,11 +35,10 @@ public class PersonResponse {
         }
     }
 
-    public PersonResponse(Person person) {
-        this.id = id;
-        this.email = email;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.phone = phone;
+
+    public static List<PersonResponse> getPersonEntities (List<Person> persons){
+        return persons.stream().map(person -> new PersonResponse()).collect(Collectors.toList());
     }
+
+
 }

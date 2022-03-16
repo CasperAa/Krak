@@ -15,11 +15,9 @@ import javax.persistence.*;
 @NoArgsConstructor
 public class Person {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    int id;
+    private String email;
+            //@Column(length = 320)
 
-    @Column(length = 320)
-    String email;
 
     String firstName;
 
@@ -30,6 +28,10 @@ public class Person {
 
     @ManyToOne
     Address connectedAddress;
+
+    public Person(){
+
+    }
 
     public Person(PersonRequest body) {
         this.email = email;

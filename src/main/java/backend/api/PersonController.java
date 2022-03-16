@@ -1,36 +1,25 @@
 package backend.api;
 
-import backend.dto.PersonRequest;
 import backend.dto.PersonResponse;
 import backend.service.PersonService;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 
-//Denne annotation omformes java til JSON, når det vises i browser
-@CrossOrigin
-@RestController
+import java.util.List;
 
-@RequestMapping("api/krak")
 public class PersonController {
-
     PersonService personService;
 
-    public PersonController(PersonService personService) {
-        this.personService = personService;
+    @GetMapping
+    public List<PersonResponse> getPersons (){
+        return personService.getPersons();
     }
 
-
-    @PostMapping("/{id}")
-    public PersonResponse addPerson(@RequestBody PersonRequest body) throws Exception {
-        return personService.addPerson(body);
+    @DeleteMapping("/{email}")
+    public void deleteMember(@PathVariable String email) {
+        personService.deletePerson(email);
     }
 
-
-    @PutMapping("/{id}")
-    public PersonResponse updatePerson(@RequestBody PersonRequest body, @PathVariable int id){
-        return personService.updatePerson(body,id);
-    }
-
-    @DeleteMapping("/{id}")
-    public void deletePerson(@PathVariable int id){
-    }
 }
+
