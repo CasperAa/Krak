@@ -18,8 +18,19 @@ public class PersonController {
         this.personService = personService;
     }
 
+
+    @PostMapping("/{id}")
+    public PersonResponse addPerson(@RequestBody PersonRequest body) throws Exception {
+        return personService.addPerson(body);
+    }
+
+
     @PutMapping("/{id}")
     public PersonResponse updatePerson(@RequestBody PersonRequest body, @PathVariable int id){
         return personService.updatePerson(body,id);
+    }
+
+    @DeleteMapping("/{id}")
+    public void deletePerson(@PathVariable int id){
     }
 }
