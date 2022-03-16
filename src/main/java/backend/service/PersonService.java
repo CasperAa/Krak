@@ -32,7 +32,8 @@ public class PersonService {
         return  PersonResponse.getPersonEntities(persons);
     }
 
-    public void deletePerson(String email){ personRepository.deleteById(email);
+    public void deletePerson(String email){
+        personRepository.deleteById(email);
     }
 
 }
