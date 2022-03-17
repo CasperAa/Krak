@@ -18,27 +18,28 @@ import javax.persistence.OneToMany;
 
 public class Hobby {
     @Id
-    private String name;
+    String name;
 
-    private String link;
-    private String category;
-    private String inOut;
+    String link;
+    String category;
+    String inOut;
 
    /* @OneToMany
     HobbyInfo hobbyInfo;*/
 
-    public Hobby(String name, String link, String category, String inOut) {
-        this.name = name;
-        this.link = link;
-        this.category = category;
-        this.inOut = inOut;
-    }
 
     public Hobby(HobbyRequest body){
         this.name = body.getName();
         this.link = body.getLink();
         this.category = body.getCategory();
         this.inOut = body.getInOut();
+    }
+
+    public Hobby(String name, String link, String category, String inOut) {
+        this.name = name;
+        this.link = link;
+        this.category = category;
+        this.inOut = inOut;
     }
 
 }
