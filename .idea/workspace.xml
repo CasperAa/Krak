@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e1c6fe5-ca6b-405f-89bc-407d5fd27e6e" name="Changes" comment="HobbyObject">
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/repository/HobbyRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/entity/Hobby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/entity/Hobby.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/ConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/repository/HobbyRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/repository/HobbyRepo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="HobbyRepo" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
