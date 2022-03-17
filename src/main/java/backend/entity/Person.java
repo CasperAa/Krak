@@ -12,7 +12,7 @@ import javax.persistence.*;
 @Getter
 @Setter
 @AllArgsConstructor
-//@NoArgsConstructor - intelli siger den allerede er defineret????
+@NoArgsConstructor
 public class Person {
     @Id
     private String email;
