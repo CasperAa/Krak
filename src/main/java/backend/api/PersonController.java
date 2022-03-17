@@ -1,15 +1,33 @@
 package backend.api;
 
+import backend.dto.PersonRequest;
 import backend.dto.PersonResponse;
 import backend.service.PersonService;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+@CrossOrigin
+@RestController
 
+
+@RequestMapping("api/krak")
 public class PersonController {
     PersonService personService;
+
+    public PersonController(PersonService personService) {
+        this.personService = personService;
+    }
+
+    @PostMapping("/{id}")
+    public PersonResponse addPerson(@RequestBody PersonRequest body) throws Exception {
+        return personService.addPerson(body);
+    }
+
+    @PutMapping("/{id}")
+    public PersonResponse updatePerson(@RequestBody PersonRequest body, @PathVariable int id){
+        return personService.updatePerson(body,id);
+    }
+
 
     @GetMapping
     public List<PersonResponse> getPersons (){

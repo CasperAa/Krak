@@ -22,17 +22,24 @@ public class PersonResponse {
 
 
     public PersonResponse(Person person, boolean includeId, boolean includeContactInfo) {
-        this.email = email;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.phone = phone;
+        this.email = person.getEmail();
+        this.firstName = person.getFirstName();
+        this.lastName = person.getLastName();
+        this.phone = person.getPhone();
         if(includeId){
             this.id = id;
         }
         if(includeContactInfo){
-            this.phone = phone;
-            this.email = email;
+            this.phone = person.getPhone();
+            this.email = person.getEmail();
         }
+    }
+
+    public PersonResponse(Person person) {
+        this.email = person.getEmail();
+        this.firstName = person.getFirstName();
+        this.lastName = person.getLastName();
+        this.phone = person.getPhone();
     }
 
 

@@ -12,7 +12,7 @@ import javax.persistence.*;
 @Getter
 @Setter
 @AllArgsConstructor
-@NoArgsConstructor
+//@NoArgsConstructor - intelli siger den allerede er defineret????
 public class Person {
     @Id
     private String email;
@@ -31,10 +31,10 @@ public class Person {
 
 
     public Person(PersonRequest body) {
-        this.email = email;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.phone = phone;
+        this.email = body.getEmail();
+        this.firstName = body.getFirstName();
+        this.lastName = body.getFirstName();
+        this.phone = body.getPhone();
     }
 
     public Person(String email, String firstName, String lastName, String phone) {
