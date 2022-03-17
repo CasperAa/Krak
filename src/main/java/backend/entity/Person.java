@@ -29,9 +29,6 @@ public class Person {
     @ManyToOne
     Address connectedAddress;
 
-    public Person(){
-
-    }
 
     public Person(PersonRequest body) {
         this.email = email;
