@@ -24,7 +24,7 @@ public class Hobby {
     private String category;
     private String inOut;
 
-   /* @OneToMany
+   /*@OneToMany
     HobbyInfo hobbyInfo;*/
 
     public Hobby(String name, String link, String category, String inOut) {
