@@ -11,11 +11,11 @@ import lombok.Setter;
 @NoArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class HobbyResponse {
-    private String name;
+    String name;
 
-    private String link;
-    private String category;
-    private String inOut;
+    String link;
+    String category;
+    String inOut;
 
     public HobbyResponse(Hobby hobby) {
         this.name = hobby.getName();
