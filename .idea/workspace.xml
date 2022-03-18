@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e1c6fe5-ca6b-405f-89bc-407d5fd27e6e" name="Changes" comment="Prøver at få forbindelse til DB">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="3e1c6fe5-ca6b-405f-89bc-407d5fd27e6e" name="Changes" comment="forbindelse til lokal DB">
+      <change afterPath="$PROJECT_DIR$/src/main/java/backend/api/HobbyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/ConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/api/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/api/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/error/Client4xxException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/error/Client4xxException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/backend/repository/HobbyRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/repository/HobbyRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/service/PersonService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +97,20 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.HobbyRepo">
+  <component name="RunManager" selected="Application.HobbyController">
+    <configuration name="HobbyController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backend.api.HobbyController" />
+      <module name="krak-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backend.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HobbyRepo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="backend.repository.HobbyRepo" />
       <module name="krak-project" />
@@ -134,12 +147,13 @@
     <list>
       <item itemvalue="Application.HobbyRepo" />
       <item itemvalue="Spring Boot.SecurityApplication" />
+      <item itemvalue="Application.HobbyController" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HobbyController" />
+        <item itemvalue="Spring Boot.SecurityApplication" />
         <item itemvalue="Application.HobbyRepo" />
-        <item itemvalue="Spring Boot.SecurityApplication" />
-        <item itemvalue="Spring Boot.SecurityApplication" />
         <item itemvalue="Spring Boot.SecurityApplication" />
         <item itemvalue="Spring Boot.SecurityApplication" />
       </list>
@@ -210,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647430279600</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="forbindelse til lokal DB">
+      <created>1647589377362</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1647589377362</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +260,7 @@
     <MESSAGE value="ordnet constructers i PersonResponse - bortset fra Id,&#10;den kunne jeg ikke" />
     <MESSAGE value="ordnet constructers i Person-objekt - bortset fra Id,&#10;den kunne jeg ikke" />
     <MESSAGE value="HobbyObject" />
-    <option name="LAST_COMMIT_MESSAGE" value="HobbyObject" />
+    <MESSAGE value="forbindelse til lokal DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="forbindelse til lokal DB" />
   </component>
 </project>

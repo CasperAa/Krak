@@ -1,37 +1,39 @@
 package backend.repository;
 
 import backend.ConnectionManager;
+import backend.entity.Hobby;
 
 import java.sql.*;
+import java.util.ArrayList;
 
 public class HobbyRepo {
 
-    public static void main(String[] args) throws SQLException {
-        Connection conn;
+    Connection conn = ConnectionManager.getConnection();
 
-
+    public ArrayList<Hobby> getAllHobbies() {
+        ArrayList<Hobby> allHobbies = new ArrayList<>();
 
         try {
-            conn= ConnectionManager.getConnection();
-            String query = "select name, link, category,in_out from krak.hobby ";
-            Statement st = conn.createStatement();
-            ResultSet rs = st.executeQuery(query);
+            PreparedStatement stmt = conn.prepareStatement("select* from hobby");
+            ResultSet rs = stmt.executeQuery();
 
+            while (rs.next()) {
+                Hobby hobby = new Hobby();
 
+                hobby.setName(rs.getString(1));
+                hobby.setCategory(rs.getString(2));
+                hobby.setLink(rs.getString(3));
+                hobby.setInOut(rs.getString(4));
 
-
-            //display data
-            while (rs.next()){
-                String id= rs.getString("name");
-                String link= rs.getString("link");
-                String category= rs.getString("category");
-                String inOut = rs.getString("in_out");
-                System.out.println(id + link + category+ inOut);
+                allHobbies.add(hobby);
             }
-            st.close();
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
+            System.out.println("Hobby failed");
         }
+        return allHobbies;
+
     }
 }
+

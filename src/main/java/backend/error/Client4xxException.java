@@ -3,7 +3,7 @@ package backend.error;
 import org.springframework.http.HttpStatus;
 
 //@ResponseStatus(value = HttpStatus.BAD_REQUEST)
-public class Client4xxException extends RuntimeException{
+/*public class Client4xxException extends RuntimeException{
     HttpStatus status;
     public Client4xxException(String message) {
         super(message);
@@ -17,4 +17,4 @@ public class Client4xxException extends RuntimeException{
     public HttpStatus getStatus() {
         return status;
     }
-}
+}*/
