@@ -6,7 +6,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.stream.Collectors;
 
-public class HobbyService {
+public class HobbySQLStatementService {
     public static void main(String[] args) throws IOException {
         System.out.println("Categories (distinct): \n" + Files.lines((Paths.get("src/main/java/backend/dto/hobbies")))
                 .map(hobby -> hobby.split(";")[2]).distinct()
