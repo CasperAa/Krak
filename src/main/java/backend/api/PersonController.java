@@ -6,8 +6,8 @@ import backend.service.PersonService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-//@CrossOrigin
-//@RestController
+@CrossOrigin
+@RestController
 
 
 @RequestMapping("api/krak")
@@ -24,7 +24,7 @@ public class PersonController {
     }
 
     @PutMapping("/{id}")
-    public PersonResponse updatePerson(@RequestBody PersonRequest body, @PathVariable String id) throws Exception {
+    public PersonResponse updatePerson(@RequestBody PersonRequest body, @PathVariable String id){
         return personService.updatePerson(body,id);
     }
 
