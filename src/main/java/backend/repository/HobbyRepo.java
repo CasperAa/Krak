@@ -9,19 +9,15 @@ public class HobbyRepo {
     public static void main(String[] args) throws SQLException {
         Connection conn;
 
-        try {
-            Class.forName("com.mysql.jdbc.Driver");
 
-        } catch (ClassNotFoundException e) {
-            System.out.println(e.getMessage());
-            System.out.println("Something went wrong");
-        }
 
         try {
             conn= ConnectionManager.getConnection();
-            String query = "select name, link, category,inOUt ";
+            String query = "select name, link, category,in_out from krak.hobby ";
             Statement st = conn.createStatement();
             ResultSet rs = st.executeQuery(query);
+
+
 
 
             //display data
@@ -29,7 +25,7 @@ public class HobbyRepo {
                 String id= rs.getString("name");
                 String link= rs.getString("link");
                 String category= rs.getString("category");
-                String inOut = rs.getString("inOut");
+                String inOut = rs.getString("in_out");
                 System.out.println(id + link + category+ inOut);
             }
             st.close();

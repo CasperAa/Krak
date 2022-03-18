@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e1c6fe5-ca6b-405f-89bc-407d5fd27e6e" name="Changes" comment="i HobbyRepo er der opsat skelet til at retrieve data from DB">
+    <list default="true" id="3e1c6fe5-ca6b-405f-89bc-407d5fd27e6e" name="Changes" comment="Prøver at få forbindelse til DB">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/backend/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/ConnectionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/api/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/api/PersonController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/backend/repository/HobbyRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/repository/HobbyRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/repository/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/repository/PersonRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/service/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backend/entity/Hobby.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/entity/Hobby.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="HobbyInfo" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -133,8 +132,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.SecurityApplication" />
       <item itemvalue="Application.HobbyRepo" />
+      <item itemvalue="Spring Boot.SecurityApplication" />
     </list>
     <recent_temporary>
       <list>

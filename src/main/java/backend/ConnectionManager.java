@@ -14,10 +14,11 @@ public class ConnectionManager {
     private static String password;
     private static Connection conn;
 
-    public ConnectionManager() {}
-
+    public ConnectionManager() {
+    }
 
     public static Connection getConnection() {
+
         if (conn != null) {
             return conn;
         }
@@ -37,7 +38,7 @@ public class ConnectionManager {
             e.printStackTrace();
         }
         return conn;
+
+
     }
-
-
 }
