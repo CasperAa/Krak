@@ -5,9 +5,11 @@ import backend.dto.PersonResponse;
 import backend.entity.Person;
 import backend.error.Client4xxException;
 import backend.repository.PersonRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class PersonService {
 
     PersonRepository personRepository;
@@ -36,7 +38,7 @@ public class PersonService {
 
 
     //Til denne metode skal der huskes at lave en constructure i PersonResponse
-    public PersonResponse updatePerson (PersonRequest personToEdit, int personId){
+    public PersonResponse updatePerson (PersonRequest personToEdit, String personId){
         Person personUpdated = personRepository.findById(personId).orElseThrow(()-> new Client4xxException("No person with provided ID found" + personId));
         personUpdated.setEmail(personToEdit.getEmail());
         personUpdated.setFirstName(personToEdit.getFirstName());

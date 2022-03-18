@@ -1,20 +1,24 @@
 package backend.repository;
 
+import backend.ConnectionManager;
+
 import java.sql.*;
 
 public class HobbyRepo {
 
     public static void main(String[] args) throws SQLException {
+        Connection conn;
+
         try {
             Class.forName("com.mysql.jdbc.Driver");
 
         } catch (ClassNotFoundException e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
+            System.out.println("Something went wrong");
         }
 
-        Connection conn= null;
         try {
-            conn= DriverManager.getConnection("jdbc.mysql://localhost:3306/krak", "andrea", "1");
+            conn= ConnectionManager.getConnection();
             String query = "select name, link, category,inOUt ";
             Statement st = conn.createStatement();
             ResultSet rs = st.executeQuery(query);
@@ -32,17 +36,6 @@ public class HobbyRepo {
 
         } catch (SQLException e) {
             e.printStackTrace();
-        }
-        finally {
-            try{
-                if(conn!=null){
-                    conn.close();
-                }
-            }
-
-            catch(SQLException e){
-
-            }
         }
     }
 }

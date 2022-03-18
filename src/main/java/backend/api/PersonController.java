@@ -24,7 +24,7 @@ public class PersonController {
     }
 
     @PutMapping("/{id}")
-    public PersonResponse updatePerson(@RequestBody PersonRequest body, @PathVariable int id){
+    public PersonResponse updatePerson(@RequestBody PersonRequest body, @PathVariable String id){
         return personService.updatePerson(body,id);
     }
 
