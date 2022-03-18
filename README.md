@@ -36,6 +36,23 @@ Testdata lavet
 Tom index lavet
 Opsæt vores egne feature branches
 
+## MiniSprint-2
+Front-end need to have færdiggjort
+Opstilling hobby-, person- & adresseside
+Søgefunktion på hobby og adresse 
+Oprettelses GRUD funktion af person
+Vis specifik person med data og associeret hobby(s)
+Backend need to have færdiggjort
+CRUD implementeret
+Test lavet
+Lavet alle komponeneter
+Få komponenterne til at hænge sammen
+HobbyFunktioner (delete og tilføj)
+Vi har ikke integreret login
+Siden har et simpelt men funktionelt design
+Vi har valgt ikke at arbejde videre med Jira
+
+
 ## Who Did What
 Each person must come up with a short description when the **final deadline is reached**.
 Initially, Each of you should push a commit with just your name
