@@ -1,8 +1,9 @@
 package backend.error;
 
 import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
 
-//@ResponseStatus(value = HttpStatus.BAD_REQUEST)
+@ResponseStatus(value = HttpStatus.BAD_REQUEST)
 public class Client4xxException extends RuntimeException{
     HttpStatus status;
     public Client4xxException(String message) {
