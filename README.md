@@ -52,6 +52,9 @@ Vi har ikke integreret login
 Siden har et simpelt men funktionelt design
 Vi har valgt ikke at arbejde videre med Jira
 
+## Frontend
+https://github.com/andjiao/krak-frontend
+
 
 ## Who Did What
 Each person must come up with a short description when the **final deadline is reached**.
